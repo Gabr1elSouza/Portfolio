@@ -2,6 +2,8 @@ import Navbar from "../components/navbar";
 
 import style from "../style.module.css";
 
+import foto from "../public/Img/Foto01.jpg";
+
 function index() {
   return (
     <>
@@ -54,7 +56,7 @@ function index() {
       {/* About section start */}
       <section className={style.about} id="about">
         <div className={style.main}>
-          <img src="./public/Img/Foto01.jpg" alt="foto-principal" />
+          <img src={foto} alt="foto-principal" />
           <div className={style.about_text}>
             <h2>About Me</h2>
             <h5>
