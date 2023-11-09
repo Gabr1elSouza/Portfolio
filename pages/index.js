@@ -56,7 +56,7 @@ function index() {
       {/* About section start */}
       <section className={style.about} id="about">
         <div className={style.main}>
-          <img src="/img/Foto01.jpg" alt="foto-principal" />
+          <img src="/Img/Foto01.jpg" alt="foto-principal" />
           <div className={style.about_text}>
             <h2>About Me</h2>
             <h5>
