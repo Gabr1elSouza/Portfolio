@@ -2,8 +2,6 @@ import Navbar from "../components/navbar";
 
 import style from "../style.module.css";
 
-import foto from "../public/Img/Foto01.jpg";
-
 function index() {
   return (
     <>
