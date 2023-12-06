@@ -1,6 +1,5 @@
 .hero {
   height: 100vh;
-  width: 100%;
   background: url(../../public/Img/BGPORT.jpg);
   background-size: cover;
   background-position: center;
@@ -9,6 +8,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 45px;
   padding-left: 8%;
   padding-right: 8%;
@@ -73,21 +73,19 @@ h4 {
   padding-bottom: 5px;
 }
 .newslatter form {
-  width: 380px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 340px;
   position: relative;
 }
 .newslatter form input:first-child {
-  display: inline-block;
-  width: 61%;
-  padding: 14px 130px 14px 15px;
+  width: 100%;
+  padding: 14px 12px 14px 15px;
   border: 2px solid #f9004d;
   outline: none;
   border-radius: 30px;
 }
 .newslatter form input:last-child {
   position: absolute;
-  display: inline-block;
   outline: none;
   border: none;
   cursor: pointer;
@@ -97,5 +95,14 @@ h4 {
   color: white;
   box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
   top: 6px;
-  right: 6px;
+  right: -23px;
+}
+
+@media (max-width: 500px) {
+  .newslatter form {
+    width: 85%;
+  }
+  h1 {
+    font-size: 65px;
+  }
 }
