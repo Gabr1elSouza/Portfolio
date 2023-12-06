@@ -5,7 +5,7 @@ function About() {
     <div>
       <section className={Style.about} id="about">
         <div className={Style.main}>
-          <img src="/Img/Foto01.jpg" />
+          <img src="/Img/Foto01.jpg" className={Style.Image} alt="Gabriel's Souza"/>
           <div className={Style.about_text}>
             <h2>About Me</h2>
             <h5>
