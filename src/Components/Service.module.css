@@ -1,23 +1,22 @@
 .service {
   background: #101010;
-  width: 100%;
   padding: 100px 0px;
 }
 .title h2 {
   color: white;
-  font-size: 75px;
-  width: 1130px;
-  margin: 30px auto;
+  font-size: 70px;
   text-align: center;
 }
 .box {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   min-height: 400px;
 }
 .card {
-  height: 365px;
+  height: 100%;
+  min-height: 365px;
   width: 335px;
   padding: 20px 35px;
   background: #191919;
