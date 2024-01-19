@@ -2,12 +2,15 @@ import React from "react";
 
 import Style from "./Service.module.css";
 
+import CardAnimation from "../Components/CardAnimation";
+
 function Service() {
   return (
     <div>
       <div className={Style.service} id="services">
-        <div className={Style.title}>
-          <h2>Our Services</h2>
+        <h2>Our Services</h2>
+        {/*<div className={Style.title}>
+          
         </div>
         <div className={Style.box}>
           <div className={Style.card}>
@@ -63,7 +66,8 @@ function Service() {
               </p>
             </div>
           </div>
-        </div>
+  </div>*/}
+        <CardAnimation />
       </div>
     </div>
   );
