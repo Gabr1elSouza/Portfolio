@@ -58,7 +58,7 @@ nav ul li a:hover {
 }
 h1 {
   color: white;
-  margin: 20px 0px 20 px;
+  margin: 20px 0px 20px;
   font-size: 75px;
 }
 h3 {
@@ -106,12 +106,6 @@ h4 {
     font-size: 65px;
   }
   nav ul {
-    opacity: 0;
-  }
-}
-
-@media (max-width: 1015px) {
-  .btn {
     opacity: 0;
   }
 }

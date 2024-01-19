@@ -1,8 +1,8 @@
 .service {
   background: #101010;
-  padding: 100px 0px;
+  padding: 20px 0px;
 }
-.title h2 {
+h2 {
   color: white;
   font-size: 70px;
   text-align: center;
