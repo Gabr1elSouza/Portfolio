@@ -68,6 +68,7 @@ function Service() {
           </div>
   </div>*/}
         <CardAnimation />
+
       </div>
     </div>
   );

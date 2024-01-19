@@ -88,3 +88,17 @@ input:checked + label .description {
 .card[for="c3"] {
   background-image: url("");
 }
+
+
+@media (max-width: 500px) {
+  .container {
+    width: 85%;
+  }
+  .card > .row > .description {
+    width: 50%;
+  }
+  .card {
+    text-align: center;
+  }
+}
+
