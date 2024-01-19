@@ -67,7 +67,8 @@ function Service() {
             </div>
           </div>
   </div>*/}
-        <CardAnimation className={Style.cards} />
+        <CardAnimation />
+
       </div>
     </div>
   );
