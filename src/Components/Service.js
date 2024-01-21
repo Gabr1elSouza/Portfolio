@@ -9,6 +9,7 @@ function Service() {
     <div>
       <div className={Style.service} id="services">
         <h2>Our Services</h2>
+        <p>Click and see my services down.</p>
         {/*<div className={Style.title}>
           
         </div>
@@ -68,7 +69,6 @@ function Service() {
           </div>
   </div>*/}
         <CardAnimation />
-
       </div>
     </div>
   );

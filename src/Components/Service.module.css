@@ -1,11 +1,17 @@
 .service {
   background: #101010;
-  padding: 20px 0px;
+  padding: 50px 0px 0px 0px;
 }
 h2 {
   color: white;
   font-size: 70px;
   text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #f9004d;
+  margin-top: 10px;
 }
 .box {
   display: flex;
