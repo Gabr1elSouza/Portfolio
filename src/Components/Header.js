@@ -1,14 +1,32 @@
-import Style from "./Header.module.css";
+import "./Header.css";
+import { useEffect } from "react";
 
 const Header = () => {
+  const hamburguer = document.querySelector(`.hamburguer`);
+  const nav = document.querySelector(".nav");
+
+  const handleClick = () => {
+    const nav = document.querySelector(`.nav`);
+    nav.classList.toggle("active");
+  };
+
+  useEffect(() => {
+    const hamburguer = document.querySelector(`.hamburguer`);
+    hamburguer.addEventListener("click", handleClick);
+
+    return () => {
+      hamburguer.removeEventListener("click", handleClick);
+    };
+  }, []);
   return (
     <div>
-      <div className={Style.hero} id="home">
-        <nav>
-          <h2 className={Style.logo}>
+      <div className="hero" id="home">
+        <nav className="nav">
+          <h2 className="logo">
             Gabri<span>el</span>
           </h2>
-          <ul>
+          <button className="hamburguer"></button>
+          <ul className="nav-list">
             <li>
               <a href="#home">Home</a>
             </li>
@@ -25,17 +43,17 @@ const Header = () => {
               <a href="#Contact">Contact us</a>
             </li>
           </ul>
-          <a href="#" className={Style.btn}>
+          <a href="#" className="btn">
             Follow me
           </a>
         </nav>
-        <div className={Style.content}>
+        <div className="content">
           <h4>Helloo, my name is</h4>
           <h1>
             Gabriel <span>Souza</span>
           </h1>
           <h3>Full-Stack Develope | Web Developer </h3>
-          <div className={Style.newslatter}>
+          <div className="newslatter">
             <form>
               <input
                 type="email"
@@ -44,7 +62,7 @@ const Header = () => {
                 placeholder="Enter your Email"
               />
               <input
-                className={Style.btn}
+                className="btn2"
                 type="submit"
                 name="submit"
                 value="Let's Start"
